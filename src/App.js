@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import { Routes, Route, Link, BrowserRouter } from 'react-router-dom';
 import FileApp from './File';
 import FolderApp from './CreateFolder';
